@@ -1,0 +1,58 @@
+* {
+    text-align: right;
+}
+
+body {
+    background-image: url(image.jpeg);
+    background-size: cover;
+}
+
+h2 {
+    color: #390365;
+}
+
+p {
+    color: #014C70;
+    text-align: center;
+    border: 5px solid rgba(11, 175, 255, 0.2);
+    cursor: pointer;
+}
+
+p {
+    /* text-transform: uppercase; */
+    line-height: 35px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Nunito', sans-serif;
+}
+
+img {
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext {
+    border: 5px dashed #002514;
+}
+
+.active {
+    color: rgb(18, 107, 0);
+}
+
+#div1 {
+    background: rgba(255, 255, 255, 0.3)
+}
+
+#div2 {
+    background: rgba(0, 88, 165, 0.25)
+}
