@@ -13,7 +13,6 @@ function createListElement() {
     li.appendChild(document.createTextNode(input.value));
     ul.appendChild(li);
     input.value = "";
-
     var removeButton = document.createElement("button");
     removeButton.appendChild(document.createTextNode("Delete"));
     li.appendChild(removeButton);
@@ -41,6 +40,8 @@ function removeListItem(evt) {
 }
 
 button.addEventListener("click", addListItemAfterClick);
+
+input.addEventListener("keypress", addListItemAfterKeyPress);
 
 ul.addEventListener("click", crossOffListItem);
 
